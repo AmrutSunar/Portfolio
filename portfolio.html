@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrut Sunar - Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 1rem 0;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        /* About Section */
+        .about-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 1.5rem;
+        }
+
+        .about-content img {
+            max-width: 150px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Skills Section */
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .skills li {
+            display: block;
+            margin: 0.5rem auto;
+            padding: 0.5rem 1rem;
+            background: #f4f4f4;
+            border-radius: 5px;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .skills img {
+            max-width: 500px;
+            margin-bottom: 2rem;
+        }
+
+        /* Projects Section */
+        .project-list {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .project {
+            text-align: center;
+        }
+
+        .project img {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .project h3 {
+            margin: 0.5rem 0;
+        }
+
+        /* Resume Section */
+        .resume a {
+            text-decoration: none;
+            color: #fff;
+            background: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .resume a:hover {
+            background: #555;
+        }
+
+        /* Contact Section */
+        .contact p {
+            text-align: center;
+        }
+
+        .contact a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Amrut Sunar</h1>
+            <p>Aspiring Software Engineer | Skilled in Java, C, and C++ | Always learning, always building</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="amrut.png.jpeg" alt="Your Photo">
+                <p>I'm a second-year B.Tech Computer Science student at MIT-ADT University with a strong foundation in Java, C, and C++. I enjoy solving problems through code and continuously strive to expand my skills in software development. My goal is to become a full-stack developer and contribute to impactful projects that make a difference.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>
+                <img src="Skill 1.png.jpeg" alt="Skill 1">
+                Skill 1
+            </li>
+            <li>
+                <img src="Skill 2.png.jpeg" alt="Skill 2">
+                Skill 2
+            </li>
+        </ul>
+    </div>
+</section>
+
+<style>
+    .skills img {
+        max-width: 500px; /* Increased the size from 50px */
+        margin-bottom: 0.5rem;
+    }
+</style>
+           
+
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <img src="Calculator.png" alt="Project 1">
+                    <h3>Calculator</h3>
+                    <p>The Calculator project is a simple yet functional application that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. It provides a user-friendly interface that allows users to input numbers and operations, displaying real-time results. This project helps in understanding the fundamentals of GUI design (if implemented with a graphical interface), event handling, and basic logic implementation in programming.
+
+</p>
+                </div>
+                <div class="project">
+                    <img src="Supercar landing page.png" alt="Project 2">
+                    <h3>Supercars</h3>
+                    <p>Welcome to the ultimate hub for supercar enthusiasts! This platform is your go-to destination to explore the world of supercars — from legendary brands like Lamborghini, Bugatti, Ferrari, and McLaren, to detailed insights into their speed, design, engines, and performance stats. Whether you're a car lover, a future buyer, or just curious, here you’ll find everything you need to know about the fastest and most luxurious machines ever built.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p><a href="https://drive.google.com/file/d/1dQXXlp4V9XsaglY_PaTXtP2tfG9LrnGN/view?usp=drive_link" download>Download My Resume</a></p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="amrutsk2005@gmail.com">amrutsk2005@gmail.com</a></p>
+            <p>Phone: +9890265110</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Amrut Sunar. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
